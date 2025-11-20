@@ -1,6 +1,6 @@
 # .github/workflows/deploy.yml
 
-name: EC2로 자동배포하기
+name: EC2로 자동 배포하기
 
 on:
   push:
