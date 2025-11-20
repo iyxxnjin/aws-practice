@@ -19,7 +19,7 @@ jobs:
           key: ${{ secrets.EC2_PEM_KEY }}
           script: |
             set -e
-            cd /home/ubuntu
+            cd /home/ubuntu/aws-practice
             git pull origin main
             pm2 kill
             npm ci
