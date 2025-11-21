@@ -1,3 +1,3 @@
 export default function Home() {
-  return <div>codeDeploy 배포</div>;
+  return <div>코드 디플로이 배포</div>;
 }
